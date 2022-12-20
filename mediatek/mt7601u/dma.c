@@ -15,6 +15,7 @@
 #include "dma.h"
 #include "usb.h"
 #include "trace.h"
+#include "filer.h"
 
 static int mt7601u_submit_rx_buf(struct mt7601u_dev *dev,
 				 struct mt7601u_dma_buf_rx *e, gfp_t gfp);
